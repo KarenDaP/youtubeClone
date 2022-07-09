@@ -1,0 +1,35 @@
+.section_article-cardVideoR{
+    width: 275px;
+    margin: 5px 6px;
+}
+.article_img-cardVideoR{
+    display: block;
+    width: 260px;
+    height: 160px;
+}
+.article_div_img-channelImage {
+    clip-path: circle(50% at 50% 50%);
+    object-fit: cover;
+    width: 15%;
+    height: 40px;
+    margin: 8px;
+}
+.article_div-fototitulo{
+    display: flex;
+}
+.article_div_h4-fototitulo{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 8px;
+    text-align: initial;
+    width: 85%;
+    color: #000;
+}
+.article_div-info{
+    font-size: 12px;
+    color: #333333cf;
+    padding-left: 28%;
+}
+.article_div_p-info{
+    margin-bottom: 3px;
+}

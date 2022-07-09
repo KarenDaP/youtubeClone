@@ -1,0 +1,23 @@
+.main-videosBuscados{
+    flex: 75% 1;
+    background-color: #f9f9f9;
+    margin-left: 18%;
+}
+.main_section_article-filter_vb{
+    display: flex;
+    padding: 10px;
+}
+.main_section_article-filter_vb > h2{
+    font-weight: 300;
+    font-size: large;
+    margin: 8px 0 0;
+}
+.fa-filter{
+    margin: 10px 10px 0 3%;
+}
+.main_section-videosBuscados > hr{
+    margin: 10px 2%;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);}

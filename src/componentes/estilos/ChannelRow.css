@@ -1,0 +1,29 @@
+.main_section_article-channel_vb{
+    display: flex;
+}
+.section_article_img-imageChannel_vb{
+    clip-path: circle(50% at 50% 50%);
+    object-fit: cover;
+    width: 110px;
+    margin: 8px 8%;
+}
+.section_article_div-textoChannel_vb{
+    margin: auto 5px;
+}
+.section_article_div-textoChannel_vb > h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.fa-music{
+    font-size: medium;
+    color: #666;
+}
+.article_div_p-textoChannel_vb{
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 4px;
+}
+.article_div_p-descriptionChannel_vb{
+    font-size: 15px;
+}

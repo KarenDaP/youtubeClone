@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    height: 56px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+}
+.header_img-bars{
+    height: 34px;
+    width: 39px;
+    margin: 11px 15px 10px 18px;
+    border-radius: 50%;
+}
+.img_logo{
+    height: 35px;
+    width: 40px;
+    float: right;
+    margin-right: 15px;
+}
+.header_nav{
+    display: flex;
+    width: 35%;
+    padding-left: 35px;
+    flex-grow: 3;
+}
+.header_div-logo{
+    flex-grow: 2;
+}
+.header_div-perfil{
+    flex-grow: 1;
+    margin: 10px 15px 0 0;
+}
+.header_input{
+    height: 40px;
+    width: 78%;
+    display: block;
+    margin: 8px 0;
+    border: #c5c5c5 solid 1px;
+}
+.header_img-logo{
+    height: 20px;
+    width: 90px;
+    margin-bottom: 17px;
+}
+.header_img-lupa{
+    width: 63px;
+    height: 40px;
+    margin: 8px 0;
+}
+.header_img-microfono{
+    width: 50px;
+    height: 45px;
+    margin: 5px 0;
+}

@@ -1,0 +1,14 @@
+.main-videos{
+    flex: 70%;
+    padding: 0 10px;
+    margin-left: 18%;
+}
+.main_section-videosRecomendados{
+    display: grid;
+    grid-gap: 7px;
+    grid-template-columns: 260px 260px 260px 260px;
+    grid-template-rows: 270px 270px;
+}
+.main_section_link-videosRecomendados{
+    text-decoration: none;
+}

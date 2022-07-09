@@ -1,0 +1,53 @@
+/* Ocultar botón radio */
+input[id^="spoiler"]{
+    display: none;
+    }
+    /* Estilo botón clicable */
+    input[id^="spoiler"] + label {
+        display: flex;
+        width: 120px;
+        padding: 5px 20px 8px;
+        cursor: pointer;
+    }
+    /* Estilo botón cuando su INPUT está seleccionado */
+    input[id^="spoiler"]:checked + label {
+    color: #333;
+    background: #ccc;
+    }
+    /* Estilo caja SPOILER (inicialmente oculto) */
+    input[id^="spoiler"] ~ .spoiler {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        height: 0;
+        overflow: hidden;
+        opacity: 0;
+        margin: 10px auto 0;
+        padding: 0 50px;
+    }
+    /* Estilo caja SPOILER cuando su INPUT está seleccionado */
+    input[id^="spoiler"]:checked + label + .spoiler{
+    height: auto;
+    opacity: 1;
+    }
+.fafilter{
+    margin: 10px 10px 0 3%;
+}
+.article_label_h2-filter_vb {
+    font-size: large;
+    font-weight: 300;
+    margin: 8px 0 0;
+}
+.spoiler_li{
+    list-style: none;
+}
+.spoiler_li_h2{
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.spoiler_li_h4{
+    margin: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
